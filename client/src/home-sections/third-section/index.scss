@@ -1,0 +1,66 @@
+.thirdSection {
+  .bg-img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    // height: 100vh;
+  }
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    .thirdSec {
+      .searchBox {
+        margin-left: 30px;
+        input {
+          margin: 30px 0 10px;
+          padding: 10px;
+          border-radius: 5px;
+          border: 1px solid rgb(116, 77, 77);
+          background-color: rgb(208, 167, 167);
+        }
+        button {
+          padding: 10px 20px;
+          margin-left: 10px;
+          background-color: rgb(208, 167, 167);
+          border: 1px solid rgb(116, 77, 77);
+          border-radius: 5px;
+          color: rgb(80, 56, 56);
+          font-weight: 600;
+        }
+      }
+      .flowerBox {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        .flowerCard {
+          width: 340px;
+          text-align: center;
+          margin: 20px 0;
+          h1 {
+            font-family: "Quicksand", Courier, monospace;
+            font-size: 20px;
+            color: #10634e;
+            font-weight: 600;
+          }
+          p {
+            font-family: "Crimson Text";
+            font-size: 18px;
+            color: #10634e;
+          }
+          img {
+            width: 340px;
+          }
+          button {
+            padding: 10px 20px;
+            margin-left: 10px;
+            background-color: rgb(208, 167, 167);
+            border: 1px solid rgb(116, 77, 77);
+            border-radius: 5px;
+            color: rgb(80, 56, 56);
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}

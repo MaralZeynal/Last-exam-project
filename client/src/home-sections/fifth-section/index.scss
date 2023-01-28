@@ -1,0 +1,18 @@
+#container {
+  max-width: 1200px;
+  margin: 0 auto;
+  .fifthSection {
+    color: #10634e;
+    margin: 30% 0 10%;
+    .bottomOfSec {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .bottomOfSec {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

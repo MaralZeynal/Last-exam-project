@@ -1,0 +1,49 @@
+.cardBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .card {
+    border: 1px solid #10634e;
+    background-color: #fef1e6;
+    width: 330px;
+    padding: 70px 20px;
+    text-align: center;
+    color: #10634e;
+    h2 {
+      margin: 0;
+      font-family: "Quicksand";
+      font-size: 22px;
+    }
+    .topOfCard {
+      display: flex;
+      align-items: center;
+      margin-left: 30%;
+      color: #10634e;
+      gap: 5px;
+      h1 {
+        font-size: 40px;
+        font-size: 30px;
+        font-family: "Quicksand";
+      }
+      p {
+        font-family: "Crimson Text";
+        font-size: 18px;
+      }
+    }
+    button {
+      padding: 10px 30px;
+      background-color: #d8e3d5;
+      color: #10634e;
+      border: none;
+      font-size: 16px;
+      margin: 0 10%;
+    }
+  }
+}
+@media only screen and (max-width: 900px){
+  .cardBox{
+    flex-wrap: wrap;
+    gap: 10px;
+    background-image: url("https://mobirise.com/extensions/floram4/floral-studio/assets/images/background1.jpg");
+  }
+  }

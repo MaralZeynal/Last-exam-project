@@ -1,0 +1,31 @@
+.footer {
+  background-color: #e0ecdc;
+  padding: 2%;
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    .footerSec {
+      display: flex;
+      justify-content: space-around;
+      color: #10634e;
+      ul {
+        h1 {
+          font-size: 22px;
+          font-family: "Quicksand";
+        }
+        li {
+          list-style-type: none;
+          font-size: 18px;
+          font-family: '"Crimson Text"';
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 900px) {
+  .footerSec {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}

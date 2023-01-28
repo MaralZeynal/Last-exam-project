@@ -1,0 +1,22 @@
+.fourthSection {
+  .bg-img {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+  }
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    .fourthSec {
+      color: #10634e;
+      text-align: center;
+      h3 {
+        font-family: "Crimson Text";
+      }
+      h1 {
+        font-family: "Quicksand";
+      }
+    }
+  }
+}

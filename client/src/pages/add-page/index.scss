@@ -1,0 +1,40 @@
+.addPage {
+  .bg-img {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+  }
+  #container {
+    max-width: 1200px;
+    margin: 0 auto;
+    .addBox {
+      padding: 10%;
+      h1{
+        text-align: center;
+        color: rgb(116, 77, 77);
+        font-size: 45px;
+      }
+      Form {
+        text-align: center;
+        .inputBox {
+          padding: 20px;
+          margin: 10px 0;
+          width: 300px;
+          border-radius: 5px;
+          border: 1px solid rgb(116, 77, 77);
+        }
+        button {
+          width: 340px;
+          padding: 15px 20px;
+          margin-top: 10px;
+          background-color: rgb(208, 167, 167);
+          border: 1px solid rgb(116, 77, 77);
+          border-radius: 5px;
+          color: rgb(80, 56, 56);
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

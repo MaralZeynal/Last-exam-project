@@ -1,0 +1,16 @@
+#container {
+  .wishlistPage {
+    color: #10634e;
+    h1 {
+      text-align: center;
+    }
+    .listBox {
+        margin: 5% 0;
+      .list {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+  }
+}
